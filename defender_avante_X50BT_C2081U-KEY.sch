@@ -928,16 +928,6 @@ Text Label 7700 6250 2    70   ~ 0
 A
 NoConn ~ 7500 6500
 NoConn ~ 7500 6750
-Connection ~ 8000 1000
-Wire Bus Line
-	8000 1000 9750 1000
-Connection ~ 9750 1000
-Wire Bus Line
-	9750 1000 10000 1000
-Connection ~ 10000 1000
-Wire Bus Line
-	10000 1000 11750 1000
-Connection ~ 11750 1000
 NoConn ~ 5250 4750
 Wire Wire Line
 	5000 2750 5250 2750
@@ -1092,11 +1082,8 @@ Wire Bus Line
 	2750 2500 3250 2500
 Wire Bus Line
 	3250 2500 3250 1000
-Connection ~ 3250 1000
 Wire Bus Line
 	3000 1000 3000 2250
-Wire Bus Line
-	3000 1000 3250 1000
 Text Label 2950 1500 2    70   ~ 0
 DATA
 Text Label 2950 1750 2    70   ~ 0
@@ -1151,12 +1138,7 @@ Wire Wire Line
 Wire Bus Line
 	2750 2500 2750 9000
 Wire Bus Line
-	3250 1000 7750 1000
-Wire Bus Line
 	7750 10250 7750 1000
-Connection ~ 7750 1000
-Wire Bus Line
-	7750 1000 8000 1000
 Text Label 7700 7750 2    70   ~ 0
 DATA
 Text Label 7700 8250 2    70   ~ 0
@@ -1302,23 +1284,12 @@ Wire Wire Line
 	11000 4750 11000 5750
 Wire Bus Line
 	13750 1000 13750 9250
-Connection ~ 13750 1000
 Wire Bus Line
 	15750 1000 15750 9250
 Wire Bus Line
-	11750 1000 12000 1000
-Wire Bus Line
-	13750 1000 14000 1000
-Wire Bus Line
 	12000 1000 12000 9250
-Connection ~ 12000 1000
-Wire Bus Line
-	12000 1000 13750 1000
 Wire Bus Line
 	14000 1000 14000 9250
-Connection ~ 14000 1000
-Wire Bus Line
-	14000 1000 15750 1000
 Connection ~ 6000 10000
 Wire Wire Line
 	6000 10000 7000 10000
@@ -2053,4 +2024,6 @@ F 3 "" H 14750 9250 60  0001 C CNN
 	1    14750 9250
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3000 1000 15750 1000
 $EndSCHEMATC
