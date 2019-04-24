@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:defender_avante_X50BT_C2081U-KEY-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "defender_avante_X50BT_C2081U-KEY"
-Date "2019-04-23"
+Date "2019-04-25"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -70,13 +71,13 @@ F 6 "Держатель: поролон 14x14x8" H 4450 9600 60  0000 R CNN "Д�
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCL:IC_X2Y_TM1668 U300
+L ICL_TITAN_MICRO_ELECTRONICS:TM1668 U300
 U 1 1 5B77231B
 P 6375 2750
 F 0 "U300" H 6375 3150 100 0000 C CNN
-F 1 "IC_X2Y_TM1668" H 6375 2750 100 0001 C CNN
+F 1 "TM1668" H 6375 2750 100 0001 C CNN
 F 2 "KCL:P-SO-24W" H 6375 2750 60  0001 C CNN
-F 3 "" H 6375 2750 60  0001 C CNN
+F 3 "http://www.titanmec.com/index.php/en/product/download/id/311.html" H 6375 2750 60  0001 C CNN
 F 4 "TM1668" H 6375 3050 60  0000 C CNN "Product"
 F 5 "Titan Micro Electronics" H 6375 2950 60  0000 C CNN "Manufacturer"
 	1    6375 2750
