@@ -12,10 +12,11 @@
   (page A4)
   (title_block
     (title defender_avante_X50BT_C2081U-KEY)
-    (date 2019-04-25)
+    (date 2019-05-15)
     (rev 2)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
+    (comment 2 "This project is licensed under GNU General Public License v3.0 or later")
   )
 
   (layers
