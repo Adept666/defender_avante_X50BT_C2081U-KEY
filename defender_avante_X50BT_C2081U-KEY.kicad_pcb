@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.5)
-    (drawings 39)
+    (drawings 27)
     (tracks 502)
     (zones 0)
     (modules 85)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title defender_avante_X50BT_C2081U-KEY)
-    (date 2019-05-16)
+    (date 2019-05-23)
     (rev 2)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
@@ -648,13 +648,13 @@
       (net 38 /IC_CLK))
   )
 
-  (module KCL:P-DO-35 (layer F.Cu) (tedit 5C6A0193) (tstamp 5CAFB721)
+  (module KCL:P-DO-35 (layer F.Cu) (tedit 5CE697A7) (tstamp 5CAFB721)
     (at 147.32 115.57 270)
     (path /5B720FCD)
     (fp_text reference D300 (at 6.35 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value DIODE_GENERAL (at 15.875 0 270) (layer F.Fab) hide
+    (fp_text value DIODE_GENERAL (at 1.905 -7.62) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 1.5325 -0.9525) (end 1.5325 0.9525) (layer F.Fab) (width 0.2))
@@ -1241,13 +1241,13 @@
       (net 40 COM))
   )
 
-  (module KCL:P-DO-35 (layer F.Cu) (tedit 5C6A01A0) (tstamp 5CDCF431)
+  (module KCL:P-DO-35 (layer F.Cu) (tedit 5CE69781) (tstamp 5CE698E6)
     (at 139.7 115.57 270)
     (path /5B8DA796)
     (fp_text reference D303 (at -6.35 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value DIODE_GENERAL (at 15.875 0 270) (layer F.Fab) hide
+    (fp_text value DIODE_GENERAL (at -1.905 -15.24) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 1.5325 -0.9525) (end 1.5325 0.9525) (layer F.Fab) (width 0.2))
@@ -1302,13 +1302,13 @@
       (net 14 /DP))
   )
 
-  (module KCL:P-DO-35 (layer F.Cu) (tedit 5C6A01A5) (tstamp 5CAFB6A3)
+  (module KCL:P-DO-35 (layer F.Cu) (tedit 5CE69792) (tstamp 5CAFB6A3)
     (at 142.24 115.57 270)
     (path /5B8DA6F2)
     (fp_text reference D302 (at 6.35 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value DIODE_GENERAL (at 15.875 0 270) (layer F.Fab) hide
+    (fp_text value DIODE_GENERAL (at -0.635 -12.7) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 1.5325 -0.9525) (end 1.5325 0.9525) (layer F.Fab) (width 0.2))
@@ -1371,7 +1371,7 @@
     (fp_text reference R303 (at 6.35 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value RESISTOR_GENERAL (at -17.145 -22.86 180) (layer F.Fab) hide
+    (fp_text value RESISTOR_GENERAL (at -15.875 -22.86 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 0.635 0.635) (end 1.27 0) (layer F.SilkS) (width 0.2))
@@ -1620,7 +1620,7 @@
     (fp_text reference R307 (at -6.35 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value RESISTOR_GENERAL (at -13.335 -12.7 180) (layer F.Fab) hide
+    (fp_text value RESISTOR_GENERAL (at -12.065 -12.7 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 0.635 0.635) (end 1.27 0) (layer F.SilkS) (width 0.2))
@@ -1679,7 +1679,7 @@
     (fp_text reference R301 (at 6.35 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value RESISTOR_GENERAL (at -15.875 -20.32 180) (layer F.Fab) hide
+    (fp_text value RESISTOR_GENERAL (at -14.605 -20.32 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 0.635 0.635) (end 1.27 0) (layer F.SilkS) (width 0.2))
@@ -1800,7 +1800,7 @@
     (fp_text reference R306 (at -6.35 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value RESISTOR_GENERAL (at -12.065 -10.16) (layer F.Fab) hide
+    (fp_text value RESISTOR_GENERAL (at -10.795 -10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 0.635 0.635) (end 1.27 0) (layer F.SilkS) (width 0.2))
@@ -2156,7 +2156,7 @@
     (fp_text reference R302 (at 6.35 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value RESISTOR_GENERAL (at -14.605 -17.78 180) (layer F.Fab) hide
+    (fp_text value RESISTOR_GENERAL (at -13.335 -17.78 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 0.635 0.635) (end 1.27 0) (layer F.SilkS) (width 0.2))
@@ -2209,13 +2209,13 @@
       (net 9 /STB))
   )
 
-  (module KCL:P-DO-35 (layer F.Cu) (tedit 5C6A0199) (tstamp 5CDCD20B)
+  (module KCL:P-DO-35 (layer F.Cu) (tedit 5CE6979C) (tstamp 5CDCD20B)
     (at 144.78 115.57 270)
     (path /5B8DA62C)
     (fp_text reference D301 (at -6.35 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value DIODE_GENERAL (at 15.875 0 270) (layer F.Fab) hide
+    (fp_text value DIODE_GENERAL (at 0.635 -10.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_line (start 1.5325 -0.9525) (end 1.5325 0.9525) (layer F.Fab) (width 0.2))
@@ -2931,23 +2931,12 @@
       (net 4 "Net-(R308-Pad1)"))
   )
 
-  (gr_line (start 160.64 93.23) (end 174.64 93.23) (layer F.SilkS) (width 0.2) (tstamp 5CAFB79C))
-  (gr_line (start 160.64 107.23) (end 174.64 107.23) (layer F.SilkS) (width 0.2) (tstamp 5CAFABA2))
-  (gr_line (start 160.64 93.23) (end 174.64 93.23) (layer F.CrtYd) (width 0.1) (tstamp 5CAFB583))
-  (gr_line (start 160.64 93.23) (end 174.64 93.23) (layer F.Fab) (width 0.2) (tstamp 5CAFC1AA))
-  (gr_line (start 160.64 107.23) (end 174.64 107.23) (layer F.CrtYd) (width 0.1) (tstamp 5CAFB0A3))
-  (gr_line (start 174.64 93.23) (end 174.64 107.23) (layer F.CrtYd) (width 0.1) (tstamp 5CAFB0A0))
-  (gr_line (start 160.64 93.23) (end 160.64 107.23) (layer F.CrtYd) (width 0.1) (tstamp 5CAFB09D))
-  (gr_line (start 174.64 93.23) (end 174.64 107.23) (layer F.SilkS) (width 0.2) (tstamp 5CAFB4AB))
-  (gr_line (start 160.64 93.23) (end 160.64 107.23) (layer F.SilkS) (width 0.2) (tstamp 5CAFB4A8))
   (gr_text "GND\n+5V\nIR\nSTB\nCLK\nDATA" (at 205.74 75.565 90) (layer F.SilkS) (tstamp 5CAFB6F4)
     (effects (font (size 1 1) (thickness 0.2)) (justify right))
   )
-  (gr_line (start 160.64 93.23) (end 160.64 107.23) (layer F.Fab) (width 0.2) (tstamp 5CAFB4A5))
   (gr_text TONE (at 232.41 95.25 90) (layer F.SilkS) (tstamp 5CAFBEC5)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_line (start 174.64 93.23) (end 174.64 107.23) (layer F.Fab) (width 0.2) (tstamp 5CAFB0AC))
   (gr_text BLUE (at 214.63 111.125) (layer F.SilkS) (tstamp 5CBF65A9)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -2966,7 +2955,6 @@
   (gr_text NEXT/TUNING+ (at 223.52 128.27) (layer F.SilkS) (tstamp 5CAFB0A9)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_line (start 160.64 107.23) (end 174.64 107.23) (layer F.Fab) (width 0.2) (tstamp 5CAFB0A6))
   (gr_circle (center 229.87 85.09) (end 232.47 85.09) (layer F.SilkS) (width 0.2) (tstamp 5CAFB2DA))
   (gr_circle (center 229.87 85.09) (end 232.47 85.09) (layer F.Fab) (width 0.2) (tstamp 5CAFB2D7))
   (gr_circle (center 229.87 85.09) (end 232.47 85.09) (layer F.CrtYd) (width 0.1) (tstamp 5CBF659C))
@@ -3183,16 +3171,12 @@
   (segment (start 113.03 91.44) (end 113.03 85.09) (width 0.6) (layer B.Cu) (net 16))
   (segment (start 113.03 85.09) (end 115.57 85.09) (width 0.6) (layer B.Cu) (net 16))
   (segment (start 111.76 83.82) (end 113.03 85.09) (width 0.6) (layer B.Cu) (net 16))
-  (segment (start 126.365 105.41) (end 130.81 100.965) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFB169))
-  (segment (start 126.365 105.41) (end 124.94 105.41) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFAE99))
-  (segment (start 130.81 90.17) (end 130.81 100.965) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFAE96))
   (segment (start 110.49 87.63) (end 110.49 91.44) (width 0.6) (layer B.Cu) (net 17) (tstamp 5CAFAE93))
   (segment (start 97.79 87.63) (end 97.79 91.44) (width 0.6) (layer B.Cu) (net 17) (tstamp 5CAFABB1))
   (segment (start 85.09 87.63) (end 85.09 91.44) (width 0.6) (layer B.Cu) (net 17) (tstamp 5CAFABAE))
   (segment (start 73.66 87.63) (end 110.49 87.63) (width 0.6) (layer B.Cu) (net 17))
   (segment (start 72.39 91.44) (end 72.39 88.9) (width 0.6) (layer B.Cu) (net 17))
   (segment (start 72.39 88.9) (end 73.66 87.63) (width 0.6) (layer B.Cu) (net 17))
-  (segment (start 128.27 87.63) (end 130.81 90.17) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFB850))
   (segment (start 91.11 91.44) (end 88.57 93.98) (width 0.6) (layer B.Cu) (net 18) (tstamp 5CAFBD6C))
   (segment (start 92.71 91.44) (end 91.11 91.44) (width 0.6) (layer B.Cu) (net 18) (tstamp 5CAFBD69))
   (segment (start 82.55 92.71) (end 83.82 93.98) (width 0.6) (layer B.Cu) (net 18) (tstamp 5CAFBD66))
@@ -3441,6 +3425,10 @@
   (segment (start 124.94 106.68) (end 127 106.68) (width 0.6) (layer B.Cu) (net 41))
   (segment (start 127 106.68) (end 132.08 101.6) (width 0.6) (layer B.Cu) (net 41))
   (segment (start 120.65 85.09) (end 127.635 85.09) (width 0.6) (layer B.Cu) (net 41))
+  (segment (start 126.365 105.41) (end 130.81 100.965) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFB169))
+  (segment (start 126.365 105.41) (end 124.94 105.41) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFAE99))
+  (segment (start 130.81 90.17) (end 130.81 100.965) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFAE96))
+  (segment (start 128.27 87.63) (end 130.81 90.17) (width 0.6) (layer B.Cu) (net 42) (tstamp 5CAFB850))
   (segment (start 128.27 87.63) (end 115.57 87.63) (width 0.6) (layer B.Cu) (net 42))
   (segment (start 132.08 111.76) (end 134.62 111.76) (width 0.6) (layer B.Cu) (net 43))
   (segment (start 134.14 105.41) (end 135.89 105.41) (width 0.6) (layer B.Cu) (net 43) (tstamp 5CAFAD6D))
