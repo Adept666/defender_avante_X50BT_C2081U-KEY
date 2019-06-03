@@ -5,14 +5,14 @@
     (drawings 27)
     (tracks 502)
     (zones 0)
-    (modules 85)
+    (modules 84)
     (nets 49)
   )
 
   (page A4)
   (title_block
     (title defender_avante_X50BT_C2081U-KEY)
-    (date 2019-05-23)
+    (date 2019-06-04)
     (rev 2)
     (company "Igor Vladimirovich Ivanov")
     (comment 1 https://github.com/Adept666)
@@ -478,7 +478,7 @@
     (at 77.47 111.76 180)
     (path /5C8F9491)
     (attr smd)
-    (fp_text reference J332 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J331 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 5.715 0 180) (layer B.Fab) hide
@@ -507,7 +507,7 @@
     (at 74.93 87.63 90)
     (path /5C927724)
     (attr smd)
-    (fp_text reference J334 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J333 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 3.175 0 180) (layer B.Fab) hide
@@ -536,7 +536,7 @@
     (at 82.55 103.505 180)
     (path /5C8CB25B)
     (attr smd)
-    (fp_text reference J329 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J328 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -594,7 +594,7 @@
     (at 95.25 95.25 90)
     (path /5C85F819)
     (attr smd)
-    (fp_text reference J322 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J321 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at -3.175 0 180) (layer B.Fab) hide
@@ -684,7 +684,7 @@
     (at 86.36 115.57 180)
     (path /5C89D02D)
     (attr smd)
-    (fp_text reference J326 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J325 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 -3.175 180) (layer B.Fab) hide
@@ -713,7 +713,7 @@
     (at 107.95 83.82 180)
     (path /5C7E35C0)
     (attr smd)
-    (fp_text reference J315 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J314 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -796,35 +796,6 @@
       (net 35 /IR))
   )
 
-  (module KCL:J-SMD-1206 (layer B.Cu) (tedit 5BD79E6E) (tstamp 5CDD0046)
-    (at 118.11 71.12 90)
-    (path /5C7D3FA0)
-    (attr smd)
-    (fp_text reference J314 (at 0 -1.905 270) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
-    )
-    (fp_text value JUMPER (at 1.905 4.445 180) (layer B.Fab) hide
-      (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
-    )
-    (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer B.Fab) (width 0.2))
-    (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer B.Fab) (width 0.2))
-    (fp_line (start 1.6 0.8) (end 1.6 -0.8) (layer B.Fab) (width 0.2))
-    (fp_line (start -1.6 0.8) (end 1.6 0.8) (layer B.Fab) (width 0.2))
-    (fp_line (start -2.413 1.016) (end -2.413 -1.016) (layer B.SilkS) (width 0.2))
-    (fp_line (start 2.413 1.016) (end 2.413 -1.016) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.413 1.016) (end 2.413 1.016) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.413 -1.016) (end 2.413 -1.016) (layer B.SilkS) (width 0.2))
-    (fp_line (start -0.381 0) (end 0.381 0) (layer B.SilkS) (width 0.2))
-    (fp_line (start -2.413 -1.016) (end -2.413 1.016) (layer B.CrtYd) (width 0.1))
-    (fp_line (start 2.413 -1.016) (end -2.413 -1.016) (layer B.CrtYd) (width 0.1))
-    (fp_line (start 2.413 1.016) (end 2.413 -1.016) (layer B.CrtYd) (width 0.1))
-    (fp_line (start -2.413 1.016) (end 2.413 1.016) (layer B.CrtYd) (width 0.1))
-    (pad J smd rect (at 1.4 0 90) (size 1.6 1.8) (layers B.Cu B.Mask)
-      (net 16 /B))
-    (pad J smd rect (at -1.4 0 90) (size 1.6 1.8) (layers B.Cu B.Mask)
-      (net 16 /B))
-  )
-
   (module KCL:J-SMD-1206 (layer B.Cu) (tedit 5BD79E6E) (tstamp 5CDCDE31)
     (at 156.21 106.68 90)
     (path /5C7A5D56)
@@ -858,7 +829,7 @@
     (at 69.85 101.6 90)
     (path /5C946360)
     (attr smd)
-    (fp_text reference J336 (at 0 1.905 270) (layer B.SilkS)
+    (fp_text reference J335 (at 0 1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 -4.445 180) (layer B.Fab) hide
@@ -979,7 +950,7 @@
     (at 97.79 115.57 180)
     (path /5C850215)
     (attr smd)
-    (fp_text reference J321 (at 4.445 0 180) (layer B.SilkS)
+    (fp_text reference J320 (at 4.445 0 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 -1.905 180) (layer B.Fab) hide
@@ -1038,7 +1009,7 @@
     (at 100.33 87.63 90)
     (path /5C83161D)
     (attr smd)
-    (fp_text reference J319 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J318 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 3.175 0 180) (layer B.Fab) hide
@@ -1096,7 +1067,7 @@
   (module KCL:J-SMD-1206 (layer B.Cu) (tedit 5BD79E6E) (tstamp 5CAFBDE0)
     (at 107.95 103.505 180)
     (path /5C8021F6)
-    (fp_text reference J317 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J316 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -1154,7 +1125,7 @@
     (at 87.63 87.63 90)
     (path /5C87E41F)
     (attr smd)
-    (fp_text reference J324 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J323 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 1.905 4.445 180) (layer B.Fab) hide
@@ -1277,7 +1248,7 @@
     (at 86.36 111.76 180)
     (path /5C88DA23)
     (attr smd)
-    (fp_text reference J325 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J324 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 -5.715 180) (layer B.Fab) hide
@@ -1399,7 +1370,7 @@
     (at 105.41 113.03 180)
     (path /5C811814)
     (attr smd)
-    (fp_text reference J318 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J317 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -1428,7 +1399,7 @@
     (at 69.85 96.52 90)
     (path /5C936D3C)
     (attr smd)
-    (fp_text reference J335 (at 0 1.905 270) (layer B.SilkS)
+    (fp_text reference J334 (at 0 1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 1.905 -11.43 180) (layer B.Fab) hide
@@ -1457,7 +1428,7 @@
     (at 67.31 96.52 90)
     (path /5C955986)
     (attr smd)
-    (fp_text reference J337 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J336 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0.635 -8.89 180) (layer B.Fab) hide
@@ -1486,7 +1457,7 @@
     (at 107.95 87.63 90)
     (path /5C7F2BDA)
     (attr smd)
-    (fp_text reference J316 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J315 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at -5.715 0 180) (layer B.Fab) hide
@@ -1589,7 +1560,7 @@
     (at 77.47 115.57 180)
     (path /5C91810E)
     (attr smd)
-    (fp_text reference J333 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J332 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 5.715 0 180) (layer B.Fab) hide
@@ -1648,7 +1619,7 @@
     (at 82.55 83.82 180)
     (path /5C8AC63D)
     (attr smd)
-    (fp_text reference J327 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J326 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -1828,7 +1799,7 @@
     (at 77.47 95.25 180)
     (path /5C8E9E7D)
     (attr smd)
-    (fp_text reference J331 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J330 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 -1.905 180) (layer B.Fab) hide
@@ -1915,7 +1886,7 @@
     (at 91.44 111.76 180)
     (path /5C86EE1B)
     (attr smd)
-    (fp_text reference J323 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J322 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175) (layer B.Fab) hide
@@ -1944,7 +1915,7 @@
     (at 97.79 113.03 180)
     (path /5C840C17)
     (attr smd)
-    (fp_text reference J320 (at 0 1.905 180) (layer B.SilkS)
+    (fp_text reference J319 (at 0 1.905 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0 3.175 180) (layer B.Fab) hide
@@ -2305,7 +2276,7 @@
     (at 81.28 111.76 90)
     (path /5C8DA869)
     (attr smd)
-    (fp_text reference J330 (at -4.445 0 270) (layer B.SilkS)
+    (fp_text reference J329 (at -4.445 0 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 3.175 0 180) (layer B.Fab) hide
@@ -2334,7 +2305,7 @@
     (at 82.55 87.63 90)
     (path /5C8BBC49)
     (attr smd)
-    (fp_text reference J328 (at 0 -1.905 270) (layer B.SilkS)
+    (fp_text reference J327 (at 0 -1.905 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value JUMPER (at 0.635 9.525 180) (layer B.Fab) hide
