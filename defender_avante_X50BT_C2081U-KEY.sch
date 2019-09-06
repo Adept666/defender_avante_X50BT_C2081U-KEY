@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:defender_avante_X50BT_C2081U-KEY-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "defender_avante_X50BT_C2081U-KEY"
-Date "2019-09-04"
+Date "2019-09-07"
 Rev "2"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -2205,8 +2204,6 @@ Wire Wire Line
 	5500 1750 5500 2250
 Wire Bus Line
 	9750 750  9750 9750
-Text Notes 5000 600  0    70   ~ 0
-Если писать про ручку то двигать вниз
 Wire Wire Line
 	9000 4750 9000 5850
 Connection ~ 7000 5750
