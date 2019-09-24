@@ -1,11 +1,12 @@
 EESchema Schematic File Version 4
+LIBS:defender_avante_X50BT_C2081U-KEY-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "defender_avante_X50BT_C2081U-KEY"
-Date "2019-09-07"
+Date "2019-09-25"
 Rev "3"
 Comp "Igor Vladimirovich Ivanov"
 Comment1 "https://github.com/Adept666"
@@ -943,10 +944,6 @@ Wire Wire Line
 Text Label 13700 4750 2    70   ~ 0
 STB
 Wire Wire Line
-	13000 5000 13750 5000
-Text Label 13700 5000 2    70   ~ 0
-IR
-Wire Wire Line
 	13000 5250 13750 5250
 Text Label 13700 5250 2    70   ~ 0
 STB
@@ -970,16 +967,6 @@ Wire Wire Line
 	13000 6500 13750 6500
 Text Label 13700 6500 2    70   ~ 0
 IC_+5V
-Wire Wire Line
-	13000 6750 13750 6750
-Text Label 13700 6750 2    70   ~ 0
-STB
-Wire Wire Line
-	13000 7000 13750 7000
-Text Label 13700 7000 2    70   ~ 0
-K2
-Wire Wire Line
-	13000 7250 13750 7250
 Text Label 13700 7250 2    70   ~ 0
 K2
 Wire Wire Line
@@ -1163,9 +1150,7 @@ Wire Wire Line
 Text Label 12050 4750 0    70   ~ 0
 STB
 Wire Wire Line
-	12000 5000 12500 5000
-Text Label 12050 5000 0    70   ~ 0
-IR
+	12250 5000 12500 5000
 Wire Wire Line
 	12000 5250 12500 5250
 Text Label 12050 5250 0    70   ~ 0
@@ -1190,18 +1175,6 @@ Wire Wire Line
 	12000 6500 12500 6500
 Text Label 12050 6500 0    70   ~ 0
 IC_+5V
-Wire Wire Line
-	12000 6750 12500 6750
-Text Label 12050 6750 0    70   ~ 0
-STB
-Wire Wire Line
-	12000 7000 12500 7000
-Text Label 12050 7000 0    70   ~ 0
-K2
-Wire Wire Line
-	12000 7250 12500 7250
-Text Label 12050 7250 0    70   ~ 0
-K2
 Wire Wire Line
 	12000 7500 12500 7500
 Text Label 12050 7500 0    70   ~ 0
@@ -2261,4 +2234,52 @@ F 6 "Switronic" H 2750 7150 60  0000 C CNN "Manufacturer"
 	1    2750 6750
 	1    0    0    -1  
 $EndComp
+$Comp
+L KCL:POWER_V #PWR0127
+U 1 1 5D94DDD3
+P 12250 5000
+F 0 "#PWR0127" V 12250 5000 100 0001 C CNN
+F 1 "POWER_V" V 12250 5000 100 0001 C CNN
+F 2 "" V 12250 5000 60  0001 C CNN
+F 3 "" V 12250 5000 60  0001 C CNN
+F 4 "V" V 12250 5000 100 0001 C CNN "Label"
+	1    12250 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KCL:POWER_V #PWR0128
+U 1 1 5D961EED
+P 13500 5000
+F 0 "#PWR0128" V 13500 5000 100 0001 C CNN
+F 1 "POWER_V" V 13500 5000 100 0001 C CNN
+F 2 "" V 13500 5000 60  0001 C CNN
+F 3 "" V 13500 5000 60  0001 C CNN
+F 4 "V" V 13500 5000 100 0001 C CNN "Label"
+	1    13500 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13000 5000 13500 5000
+Wire Wire Line
+	13000 7250 13750 7250
+Text Label 12050 7250 0    70   ~ 0
+K2
+Wire Wire Line
+	12000 7250 12500 7250
+Wire Wire Line
+	12000 6750 12500 6750
+Text Label 12050 6750 0    70   ~ 0
+IC_+5V
+Wire Wire Line
+	12000 7000 12500 7000
+Text Label 12050 7000 0    70   ~ 0
+IC_+5V
+Wire Wire Line
+	13000 6750 13750 6750
+Text Label 13700 6750 2    70   ~ 0
+IC_+5V
+Wire Wire Line
+	13000 7000 13750 7000
+Text Label 13700 7000 2    70   ~ 0
+IC_+5V
 $EndSCHEMATC
