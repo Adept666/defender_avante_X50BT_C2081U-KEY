@@ -6,7 +6,7 @@ Defender Avante X50BT C2081U-KEY PCB
 
 ## Author
 
-Igor Vladimirovich Ivanov
+Igor Ivanov
 
 ## License
 
