@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name defender_avante_X50BT_C2081U-KEY)(type Legacy)(uri ${KIPRJMOD}/defender_avante_X50BT_C2081U-KEY.lib)(options "")(descr ""))
+)
